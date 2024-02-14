@@ -15,6 +15,7 @@ export default function Post({ post }) {
         </div>
         <div>
           <div className="w-24 h-24 m-4 rounded-full bg-red-500"></div>
+          <div>{post.Post}</div>
         </div>
       </div>
       <p className="">{post.PostText}</p>
