@@ -14,12 +14,11 @@ export default function Post({ post }) {
           )}
         </div>
         <div>
-          <div className="w-24 h-24 m-4 rounded-full bg-red-500"></div>
+          <div className="w-24 h-24 m-4 bg-red-500 rounded-full"></div>
           <div>{post.Post}</div>
         </div>
       </div>
       <p className="">{post.PostText}</p>
-      <p>This is also a div</p>
     </article>
   );
 }
